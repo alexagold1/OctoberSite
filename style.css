@@ -27,7 +27,7 @@ body{
     background-attachment: fixed;
 }
 .white{
-    height: 610px;
+    height: 660px;
   background-color:#ffffff;
   margin-top: 600px;
   margin-bottom: 200px;
@@ -77,3 +77,4 @@ font-style: normal;
       width: 73ch; 
     }
   }
+  
