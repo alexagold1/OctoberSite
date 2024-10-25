@@ -1,80 +1,81 @@
-.img-fluid{
-    width: 180px;
+.img-fluid {
+  width: 180px;
 }
 
-.container-fluid{
-    background-color: #D2B48C;
+.container-fluid {
+  background-color: #d2b48c;
 }
-.nav-item{
-    font-family: "neighbor", sans-serif;
-font-weight: 300;
-font-style: normal;
-font-size: 25px;
+.nav-item {
+  font-family: "neighbor", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
 }
-.navbar-text{
-    font-family: "neighbor", sans-serif;
-font-weight: 300;
-font-style: normal;
-font-size: 25px;
+.navbar-text {
+  font-family: "neighbor", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
 }
-strong{
-    font-weight: bold;
+strong {
+  font-weight: bold;
 }
-body{
-    background-image: url(imgs/amelia\ flying.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+body {
+  background-image: url(imgs/amelia\ flying.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.white{
-    height: 660px;
-  background-color:#ffffff;
+.white {
+  height: 660px;
+  background-color: #ffffff;
   margin-top: 600px;
   margin-bottom: 200px;
   padding-top: 70px;
 }
 
-h3{
-    margin-top: 100px;
-    color: #D2B48C;
-    font-family: "thirsty-script", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 90px;
-text-shadow:1px 1px 2px rgb(0, 0, 0);
+h3 {
+  margin-top: 100px;
+  color: #d2b48c;
+  font-family: "thirsty-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-h2{
-    text-align: center;
-    font-family: "margot", sans-serif;
-font-weight: 400;
-font-style: normal;
+h2 {
+  text-align: center;
+  font-family: "margot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-  
-  .typewriter {
-      width: 21.5ch;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 4px solid #212121;
-      animation: cursor 4s step-start infinite, 
-      text 5s steps(25) alternate infinite;
-        text-align: center;
-        height: 255px;
+.typewriter {
+  width: 21.5ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #212121;
+  animation: cursor 4s step-start infinite, text 5s steps(25) alternate infinite;
+  text-align: center;
+  height: 255px;
+}
+
+@keyframes cursor {
+  0%,
+  100% {
+    border-color: #212121;
   }
-  
-  @keyframes cursor {
-      0%, 100% { 
-      border-color: #212121; 
-    }
+}
+
+@keyframes text {
+  0% {
+    width: 0;
   }
-  
-  @keyframes text {
-      0% { 
-      width: 0; 
-    }
-      100% { 
-      width: 73ch; 
-    }
+  100% {
+    width: 73ch;
   }
-  
+}
+.card {
+  width: 400px;
+}
