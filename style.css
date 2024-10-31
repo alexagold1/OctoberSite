@@ -49,6 +49,7 @@ h2 {
   font-family: "margot", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 2px 2px 5px #d2b48c;
 }
 
 .typewriter {
@@ -78,6 +79,8 @@ h2 {
 }
 .card {
   width: 400px;
+  border: solid #d2b48c 2px;
+  box-shadow: 4px 4px 4px black;
 }
 .nav-item2 {
   font-family: "neighbor", sans-serif;
